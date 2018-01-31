@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Charlie extends Application
+class Tango extends Application
 {
 
     function __construct()
@@ -10,11 +10,11 @@ class Charlie extends Application
     }
 
     /**
-     * Charlie Brown subcontroller
+     * Tango subcontroller
      */
-    public function brown()
+    public function index()
     {
-        $this->show(3);
+        $this->show(5);
     }
 
 }
